@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+        <TextView
+            android:id="@+id/Escondido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="invisible"
+            android:layout_below="@+id/textView_Hora"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+        android:id="@+id/textView_Hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/textView_insulina"
+            android:layout_alignStart="@+id/textView_insulina" />
+
+        <TextView
+        android:id="@+id/textView_glucosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="right"
+            android:layout_marginRight="29dp"
+            android:layout_marginEnd="29dp"
+            android:layout_above="@+id/Escondido"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+        android:id="@+id/textView_insulina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/Escondido"
+            android:layout_alignRight="@+id/Escondido"
+            android:layout_alignEnd="@+id/Escondido" />
+
+            <TextView
+            android:id="@+id/textView_categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="right"
+                android:layout_alignBaseline="@+id/textView_insulina"
+                android:layout_alignBottom="@+id/textView_insulina"
+                android:layout_alignLeft="@+id/textView_glucosa"
+                android:layout_alignStart="@+id/textView_glucosa" />
+        </RelativeLayout>
+
+</LinearLayout>

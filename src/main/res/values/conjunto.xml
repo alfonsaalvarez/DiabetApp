@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria">
+    <item>Desayuno</item>
+        <item>Comida</item>
+        <item>Merienda</item>
+        <item>Cena</item>
+    </string-array>
+    <string-array name="ejercicio">
+        <item>Nulo</item>
+        <item>Leve</item>
+        <item>Moderado</item>
+        <item>Normal</item>
+        <item>Intenso</item>
+        <item>Muy intenso</item>
+    </string-array>
+    <string-array name="insulina">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+
+</resources>
+
